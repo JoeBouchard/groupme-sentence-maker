@@ -15,3 +15,12 @@ To trigger it, type "predictive text" into the chat to see what you would say.
 Type "predictive text" and tag someone to run a prediction on what they would say.
 Type "Predictive Text", capitalized, to run a prediction based on everyone in the chat.
 
+This bot requires external modules. On the command line, run the command:
+pip install GroupyAPI
+to install the necessary module.
+
+In addition, this bot is designed to work with Heroku.
+Create a new private repo with your access code set up.
+Link that to a new application on Heroku
+Turn on the new "worker" dyno once the app deploys to Heroku
+This makes the bot run even when your computer is not running it
